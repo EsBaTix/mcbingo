@@ -59,6 +59,9 @@ const DARK_MODE_CLASS_NAME = "dark";
 const SHOW_OPTIONS_MENU_CLASS_NAME = "show-options";
 const SHOW_EXPORT_CLASS_NAME = "show-export";
 
+var TYPING_TIMER;
+const TYPING_DONE_INTERVAL = 350;
+
 // Dropdowns and pause menu handling.
 $(document).click(function(event) {
 	const className = event.target.className;
@@ -527,6 +530,11 @@ function changeDifficulty(value)
 	updateDifficulty();
 	generateNewSheet();
 	pushNewUrl();
+}
+
+function handleSeedTyping(value) {
+	clearTimeout(TYPING_TIMER);
+	TYPING_TIMER = setTimeout(changeSeed, TYPING_DONE_INTERVAL, value);
 }
 
 function changeSeed(value)
