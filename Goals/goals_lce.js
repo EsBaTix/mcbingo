@@ -322,7 +322,6 @@ var bingoList_lce = [
 	{name: "Hang up a 4x4 Painting", difficulty: 3, infrequency: 2, antisynergy: ["Painting"], tags: [Action, Overworld]},
 	{name: "Hang up 3 Different 4x4 Paintings", difficulty: 5, infrequency: 2, antisynergy: ["Painting"], tags: [Action, Overworld]},
 	{name: "Change the colour of text on a Sign", difficulty: 2, tags: [Action]},
-	{name: "Outline the text on a Hanging Sign", difficulty: 12, tags: [Action, Overworld]},
 	{name: "Sleep in a Bed", difficulty: 2, reactant: ["Sleep"], tags: [Action, Overworld]},
 	{name: "Bounce on a Bed", difficulty: 2, tags: [Action, Overworld]},
 	{name: "Fill a Composter", difficulty: 3, tooltiptext: "Add stuff until you can get Bonemeal out!", tooltipimg: "FullComposter.jpg", tags: [Action]}, //TODO check if composter exists on 360
@@ -570,7 +569,6 @@ var bingoList_lce = [
 	{name: "Block of Quartz", difficulty: 12, tags: [Item, Nether]},
 	{name: "(16-32) Glowstone Dust", difficulty: 12, infrequency: 2, tags: [Item, Nether]},
 	{name: "(33-64) Glowstone Dust", difficulty: 13, infrequency: 2, tags: [Item, Nether]},
-	{name: "Grow a Huge Nether Fungus", difficulty: 12, antisynergy: ["GrowFungus"], tags: [Action, Nether]},
 	{name: "Activate a (4-6)x(4-6) Nether Portal (not counting corners)", difficulty: 12, tooltiptext: "Width/height of the Obsidian frame, disregarding corners (or in other words, width/height of the—once activated—purple portal area).", tooltipimg: "Portal.jpg", tags: [Action, Build, Nether]},
 	{name: "(5-16) Soul Sand", difficulty: 12, tags: [Item, Nether]}, 
 	{name: "(Try to) Sleep in the Nether", difficulty: 11, tags: [Action, Nether, Overworld]},
