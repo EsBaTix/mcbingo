@@ -447,7 +447,7 @@ var bingoList_v5 = [
 	{name: "4 Different Seeds", difficulty: 25, infrequency: 2, antisynergy: ["Seeds"], tooltiptext: "Any item with \"Seeds\" in the name.", tags: [Item, Overworld]},
 	{name: "(6-15) Bamboo", difficulty: 10, tags: [Item, Overworld, RareBiome]},
 	{name: "Moss Block", difficulty: 13, tags: [Item, RareBiome, Overworld]},
-	{name: "Torch Flower", difficulty: 33, tags: [Item, Overworld, Ocean, RareBiome]}, // Inherits the tags of the sniffer
+	{name: "Torchflower", difficulty: 33, tags: [Item, Overworld, Ocean, RareBiome]}, // Inherits the tags of the sniffer
 	{name: "Pitcher Plant", difficulty: 35, tags: [Item, Overworld, Ocean, RareBiome]}, // Inherits the tags of the sniffer
 	{name: "64 Leaf Litter", difficulty: 3, tags: [Item, Overworld]},
 	{name: "Firefly Bush", difficulty: 4, tags: [Item, Overworld]},
@@ -670,7 +670,7 @@ var bingoList_v5 = [
 	{name: "Ride a Camel", difficulty: 9, tags: [Action, Overworld]},
 	{name: "Kill a Hostile Mob while riding a Camel", reactant: ["Pacifist"], difficulty: 10, tags: [Action, Overworld, Combat]},
 	{name: "Sniffer Egg", difficulty: 32, tags: [Item, Overworld, Ocean, RareBiome]},
-	{name: "Armadilo Scute", difficulty: 13, tags: [Item, Overworld]},
+	{name: "Armadillo Scute", difficulty: 13, tags: [Item, Overworld]},
 	{name: "Breeze Rod", difficulty: 22, reactant: ["Pacifist"], tags: [Item, Overworld, Combat]},
 	{name: "Arrow of Poison", difficulty: 21, reactant: ["Pacifist"], tags: [Item, Overworld, Combat]},
 	{name: "Respawn a Creaking without destroying or placing its Creaking Heart", difficulty: 30, tags: [Action, Overworld, RareBiome, Combat]},
@@ -723,7 +723,7 @@ var bingoList_v5 = [
 	{name: "(6-7) Different Edible Items", difficulty: 12, tooltiptext: "Raw and Cooked variants count as one (e.g. Raw Beef and Steak).", tooltipimg: "RawAndCooked.jpg", infrequency: 2, tags: [Item, Overworld, Food]},
 	{name: "3 Different Fish", difficulty: 6, tooltiptext: "Raw and Cooked variants count as one (e.g. Raw Cod and Cooked Cod).", tags: [Item, Overworld, Food]},
 	{name: "Mushroom Stew", difficulty: 10, tags: [Item, Food]},
-	{name: "Eat an entire Cake", difficulty: 13, reactant: ["EatNonMeat", "UseFurance"], tags: [Action, Overworld, Food]}, // 4 + 1 + 3 + 5
+	{name: "Eat an entire Cake", difficulty: 13, reactant: ["EatNonMeat", "UseFurnace"], tags: [Action, Overworld, Food]}, // 4 + 1 + 3 + 5
 	{name: "Pumpkin Pie", difficulty: 8, tags: [Item, Overworld, Food]}, // 4 + 3 + 1
 	{name: "Golden Apple", difficulty: 10, tags: [Item, Food]},
 	{name: "Golden Carrot", difficulty: 12, tags: [Item, Food]},
