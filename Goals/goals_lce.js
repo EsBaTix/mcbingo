@@ -320,10 +320,8 @@ var bingoList_lce = [
 	{name: "Hang up a Painting", difficulty: 2, infrequency: 2, antisynergy: ["Painting"], tags: [Action, Overworld]},
 	{name: "Hang up a 4x4 Painting", difficulty: 3, infrequency: 2, antisynergy: ["Painting"], tags: [Action, Overworld]},
 	{name: "Hang up 3 Different 4x4 Paintings", difficulty: 5, infrequency: 2, antisynergy: ["Painting"], tags: [Action, Overworld]},
-	{name: "Change the colour of text on a Sign", difficulty: 2, tags: [Action]},
 	{name: "Sleep in a Bed", difficulty: 2, reactant: ["Sleep"], tags: [Action, Overworld]},
 	{name: "Bounce on a Bed", difficulty: 2, tags: [Action, Overworld]},
-	{name: "Fill a Composter", difficulty: 3, tooltiptext: "Add stuff until you can get Bonemeal out!", tooltipimg: "FullComposter.jpg", tags: [Action]}, //TODO check if composter exists on 360
 	{name: "Repair an Item with a Grindstone", difficulty: 4, tags: [Action, Overworld]},
 	{name: "Tame a Horse", difficulty: 4, tags: [Action, Overworld]},
 	{name: "Sleep in a Villager's bed", difficulty: 4, reactant: ["Sleep"], tags: [Action, Village, Overworld]},
@@ -731,4 +729,6 @@ var bingoList_lce = [
  * - general balancing
  * - check height limit (should be 256?)
  * - no bartering!
+ * - no statistics screen
+ * - no logs, just wood?
  * */
