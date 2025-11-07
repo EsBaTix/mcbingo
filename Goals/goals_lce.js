@@ -370,7 +370,6 @@ var bingoList_lce = [
 	{name: "Kill a hostile mob with Sand", difficulty: 14, reactant: ["Pacifist"], antisynergy: ["KillFallingBlock"], infrequency: 2, tags: [Action, Combat, Overworld]},
 	{name: "Put a Carpet on a Llama", difficulty: 14, tags: [RareBiome, Action, Overworld]},
 	{name: "Kill a hostile mob with an Anvil", difficulty: 16, reactant: ["Pacifist"], tags: [Action, Combat]},
-	{name: "Ignite a TNT with a Lectern", difficulty: 14, tags: [Action, Overworld]}, // TODO check if lecterns exist on 360
 	{name: "Put a Chest on a Donkey", difficulty: 16, tags: [Action, Overworld]},
 	{name: "Enchant an item", difficulty: 18, antisynergy: ["EnchantItem"], tooltiptext: "With an enchantment table, not an anvil.", tags: [Action, Overworld]},
 	{name: "Enchant 5 different items", difficulty: 24, antisynergy: ["EnchantItem"], tooltiptext: "With an enchantment table, not an anvil.", tags: [Action, Overworld]},
