@@ -250,7 +250,6 @@ var bingoList_lce = [
 	{name: "Water, Lava and Milk Bucket", difficulty: 8, antisynergy: ["WaterBucket", "LavaBucket", "MilkBucket"], reactant: ["UseBuckets"], tags: [Item, Overworld, Tool]},
 	{name: "Carrot on a Stick", difficulty: 10, tags: [Item, Tool]},
 	{name: "Water, Lava, Milk and Fish Bucket", difficulty: 10, antisynergy: ["WaterBucket", "LavaBucket", "MilkBucket", "FishBucket"], reactant: ["UseBuckets"], tooltiptext: "Can be any of the types of Fish.", tooltipimg: "FishBucket.jpg", tags: [Item, Overworld, Tool]},
-	{name: "Blue Shield with White Flower Charge Pattern", difficulty: 11, tags: [Item, Overworld, Tool]}, // TODO needs to be tested on 360
 	{name: "Enchanted Golden Sword", difficulty: 14, tags: [Item, Tool]},
 	{name: "Tipped Arrow", difficulty: 15, tags: [Item, Tool]},
 	//#endregion
@@ -517,7 +516,6 @@ var bingoList_lce = [
 	{name: "Never use a Boat", difficulty: 5, tags: [Never, Overworld]},
 	{name: "Never use Coal", difficulty: 5, tooltiptext: "Never use Coal for any crafting recipes or fuel in a Furnace, CAN use Charcoal.", catalyst: ["Coal"], tooltipimg: "NoCoal.jpg", tags: [Never]},
 	{name: "Never place Torches", difficulty: 5, tooltiptext: "Never place normal Torches, you CAN craft with them. Other types of Torches are allowed.", tags: [Never]},
-	{name: "Never use Shields", difficulty: 7, tooltiptext: "You can use Shields in crafting, but cannot use them for blocking.", tags: [Never, Tool]},
 	{name: "Carnivore", difficulty: 6, tooltiptext: "Only eat meat.", tooltipimg: "NoBread.jpg", antisynergy: ["Food"], tags: [Never, Action], catalyst: ["EatNonMeat"]},
 	{name: "Vegetarian", difficulty: 8, tooltiptext: "Never eat meat, including fish.", tooltipimg: "NoFish.jpg", antisynergy: ["Food"], tags: [Never, Action], catalyst: ["EatMeat"]},
 	{name: "Carnivore", difficulty: 13, tooltiptext: "Only eat meat.", tooltipimg: "NoBread.jpg", antisynergy: ["Food"], tags: [Never, Action], catalyst: ["EatNonMeat"]}, // These are here twice so it shows up in Easy and Medium
@@ -531,7 +529,7 @@ var bingoList_lce = [
 	{name: "Never use Buckets", difficulty: 24, catalyst: ["UseBuckets"], tags: [Never, Tool]}, // These are here 3 times so it shows up in Medium, Hard and Very Hard
 	{name: "Never use Buckets", difficulty: 34, catalyst: ["UseBuckets"], tags: [Never, Tool]},
 	{name: "Never smelt with Furnaces", difficulty: 18, tooltiptext: "You can use Furnaces in crafting, but cannot use them for cooking or smelting.", catalyst: ["UseFurnace"], tags: [Never, Overworld]},
-	{name: "Never wear Armour or use Shields", difficulty: 12, tooltiptext: "You can use Armour/Shields in crafting, but cannot wear the Armour or block with Shields.", catalyst: ["WearArmour"], antisynergy: ["NeverWearArmour"], tags: [Never]},
+	{name: "Never wear Armour", difficulty: 12, tooltiptext: "You can use Armour in crafting, but cannot wear the Armour.", catalyst: ["WearArmour"], antisynergy: ["NeverWearArmour"], tags: [Never]},
 	{name: "Pacifist", difficulty: 30, tooltiptext: "Never kill any mob, as per the statistics screen.", catalyst: ["Pacifist"], tags: [Never, Stat]},
 	{name: "Only Auto-Jump", difficulty: 28, tooltiptext: "Never press the jump button yourself, only use the Auto-Jump feature.", tags: [Never, Stat]},
 	{name: "Never Use Elytra", difficulty: 69, tags: [Never, Tool, End]},
@@ -624,7 +622,6 @@ var bingoList_lce = [
 	{name: "(4-7) Colours of Glazed Terracotta", difficulty: 9, reactant: ["UseFurnace"], infrequency: 3, tags: [Item, Colour, Overworld]},
 	{name: "(7-10) Colours of Glazed Terracotta", difficulty: 17, reactant: ["UseFurnace"], infrequency: 3, tags: [Item, Colour, Overworld]},
 	{name: "(11-13) Colours of Glazed Terracotta", difficulty: 25, reactant: ["UseFurnace"], infrequency: 3, tags: [Item, Colour, Overworld]},
-	{name: "(2-3) Different Coloured Shields", difficulty: 6, tags: [Item, Colour, Overworld]},
 	{name: "Red Dye", difficulty: 1, infrequency: 10, tags: [Item, Overworld]},
 	{name: "Yellow Dye", difficulty: 1, infrequency: 10, tags: [Item, Overworld]},
 	{name: "Orange Dye", difficulty: 2, infrequency: 10, tags: [Item, Overworld]},
@@ -734,5 +731,4 @@ var bingoList_lce = [
  * - general balancing
  * - check height limit (should be 256?)
  * - no bartering!
- * - no shields?
  * */
