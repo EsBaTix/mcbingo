@@ -398,7 +398,7 @@ var bingoList_lce = [
 	{name: "Get a Shulker into the Overworld", difficulty: 180, tags: [Action, Combat, End, Overworld]},
 	{name: "Convert a Pig into a Zombifie Pigman", difficulty: 200, tags: [Action, Overworld, Storm]},
 	{name: "Tame a Skeleton Horse", difficulty: 200, tags: [Action, Overworld, Storm]},
-	{name: "Remove an Effect from Yourself", difficulty: 8, tooltiptext: "Effects are things like Posion, Dolphion's Grace etc. Waiting for them to naturally run out doesn't count.", reactant: ["UseBuckets"], tags: [Action, Overworld]},
+	{name: "Remove an Effect from Yourself", difficulty: 8, tooltiptext: "Effects are things like Posion etc. Waiting for them to naturally run out doesn't count.", reactant: ["UseBuckets"], tags: [Action, Overworld]},
 	{name: "Ice Block on top of a Magma Block", difficulty: 12, tags: [Build, Overworld]},
 	{name: "Unlock a Vault", difficulty: 25, reactant: ["Pacifist"], tags: [Action, Overworld, Combat]},
 	{name: "Leash a Boat", difficulty: 5, tags: [Action]},
